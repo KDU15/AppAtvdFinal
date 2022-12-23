@@ -12,7 +12,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Marvel API" component={Home} />
+        <Stack.Screen options={{headerShown: false}} name="Marvel API" component={Home} />
         <Stack.Screen name="Herois" component={Herois} />
         <Stack.Screen name="Heroi" component={Heroi} />
       </Stack.Navigator>
